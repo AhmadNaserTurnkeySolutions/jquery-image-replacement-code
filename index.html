@@ -1,0 +1,70 @@
+<!DOCTYPE html> <!-- HTML5 -->
+<html>
+
+<head>
+<meta charset = "UTF-8">
+<script type "text/javascipt" src = "jquery-1.8.3.js"> </script>
+<link rel = "stylesheet" type = "text/css" href = "css\style.css" />
+
+<script>
+
+$(document).ready(function (){
+
+$(".box a").click(function()
+{ 
+$(".box a").children("div").children("img").css("border","0px" );
+var x = $(this).children("div").html();
+//$("#c-div").fadeIn("slow");
+$("#c-div").html(x);
+
+$(this).children("div").children("img").css("border","3px solid red" );
+});
+
+});
+</script>
+
+</head>
+
+<body>
+
+<div id = "page"> 
+ 
+ <div id = "pics">
+<div class = "box">
+<a>
+<div class = "picture">
+<img src = "1.jpg" />
+</div>
+</a >
+</div> <!-- box 1 -->
+
+<div class = "box">
+<a>
+<div class = "picture">
+<img src = "2.jpg" />
+</div>
+</a>
+
+</div> <!-- box 2 -->
+
+<div class = "box"> 
+<a>
+<div class = "picture">
+<img src = "3.jpg" />
+</div>
+</a>
+
+</div> <!-- box 3 -->
+</div> <!-- pics-->
+
+<section id = "c-div">
+
+<img src = "1.jpg" />
+
+</section>
+
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+body {margin : 0; padding :0;}
+
+
+#page{
+width : 780px;
+height : 780px;
+margin : 0 auto;
+background : gray;
+padding : 10px;
+}
+
+.box
+{
+height: 190px;
+width: 240px;
+background : pink;
+float : left;
+margin : 10px;
+cursor: pointer
+}
+.box img
+{
+height: 190px;
+width: 240px;
+}
+
+#pics{
+width : 100%;
+background : red;
+}
+
+#c-div{
+width : 760px;
+height : 446px;
+background : black;
+margin-left: 10px;
+margin-top: 10px;
+float : left;
+}
+
+#c-div img{
+width : 760px;
+height : 446px;
+}
+
